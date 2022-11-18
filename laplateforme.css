@@ -49,7 +49,7 @@ header nav a {
     font-weight: bold;
     margin-right: 35px;
     text-decoration: underline;
-    color: #336699;
+    color: black;
 }
 
 /*Contenu du milieu de page*/
@@ -59,7 +59,7 @@ header nav a {
     font-size: 20px;
     text-align: center;
     color: white;
-    background-color: #336699;
+    background-color: #3a3a3a;
     display:flex;
     align-items: center;
     line-height: 1.8
@@ -72,7 +72,7 @@ header nav a {
 }
 
 .contenu_gauche button {
-    background-color: #ff2063;
+    background-color: #336699;
     font-family: "Roboto Thin", sans-serif;
     font-weight: bold;
     text-align: center;
@@ -100,20 +100,22 @@ header nav a {
     transition: letter-spacing 300ms ease 0ms
 }
 
- /*Partie droite avec l'image*/
+/*Partie droite avec l'image*/
 
 .contenu_droite {
     display: flex;
 }
 
 .contenu_etudiants img {
-    zoom: 90%; }
+    zoom: 100%;
+
+}
 
 /*Cartes des spécialités*/
 
 .spécialités {
     display: flex;
-    color: #336699;
+    color: black;
     flex-direction: column;
     max-width: 100%;
     background-color: #e9e9e9;
@@ -140,7 +142,7 @@ header nav a {
 }
 
 .spécialités .panneau_spé button {
-    background-color: #ffca4b;
+    background-color: #336699;
     color: white;
     font-weight: bold;
     text-align: center;
@@ -204,7 +206,7 @@ header nav a {
     display: flex;
     background-color: white;
     margin-left: 120px;
-    margin-right: 120px;
+    margin-right: 90px;
     margin-bottom: 90px;
 }
 
@@ -238,7 +240,7 @@ header nav a {
 }
 
 .container_bouton_talent button {
-    background-color: #ffca4b;
+    background-color: #336699;
     color: white;
 
     font-weight: bold;
@@ -255,7 +257,7 @@ header nav a {
     display: flex;
     background-color: white;
     margin-left: 120px;
-    margin-right: 120px;
+    margin-right: 90px;
     margin-bottom: 90px;
 }
 
@@ -288,7 +290,7 @@ header nav a {
 }
 
 .container_bouton_formation button {
-    background-color: #ffca4b;
+    background-color: #336699;
     color: white;
 
     font-weight: bold;
@@ -305,7 +307,7 @@ header nav a {
     display: flex;
     background-color: white;
     margin-left: 120px;
-    margin-right: 120px;
+    margin-right: 90px;
     margin-bottom: 90px;
 }
 
@@ -323,7 +325,7 @@ header nav a {
     display: flex;
     background-color: white;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .container_innovation .img_innovation {
@@ -339,7 +341,7 @@ header nav a {
 }
 
 .container_bouton_innovation button {
-    background-color: #ffca4b;
+    background-color: #336699;
     color: white;
     font-weight: bold;
     text-align: center;
@@ -354,12 +356,13 @@ header nav a {
 .container_futur {
     display: flex;
     flex-direction: column;
-    background-color: orange;
+    background-color: lightcoral;
     line-height: 0;
 }
 
 .titre_futur {
     display: flex;
+    text-decoration: underline;
     font-size: 25px;
     color: white;
     justify-content: center;
@@ -380,12 +383,13 @@ header nav a {
     color: white;
     justify-content: center;
     text-align: center;
+    margin-bottom: 70px;
 }
 
 .vidéos_youtube {
     display: flex;
     justify-content: space-around;
-    background-color: orange;
+    background-color: lightcoral;
     margin-bottom: 50px;
 }
 
