@@ -1,0 +1,164 @@
+/*Containe Body*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Thin",sans-serif;
+}
+
+/*Header*/
+
+header {
+    height: 90px;
+
+    display: flex;
+    justify-content: space-between;
+    border-bottom : lightgrey;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+/*Logo du Header*/
+
+header .logo {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    margin: 0;
+}
+
+header img {
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+
+}
+
+/*Boutons du Header*/
+
+header nav {
+    font-family: "Roboto Thin",sans-serif;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header nav a {
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 35px;
+    text-decoration: underline;
+    color: black;
+}
+
+.présentation {
+    display: flex;
+    color: grey;
+    line-height:29px;
+    padding: 0px 300px 0px 350px;
+}
+
+.titres_présentation {
+    display: flex;
+    font-size: 23px;
+    justify-content: flex-start;
+    margin-top: 60px;
+    margin-left: 350px;
+    height: 140px;
+}
+
+.text_présentation1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 120px;
+}
+
+.text_présentation2 {
+    display: flex;
+    margin-right: 150px;
+}
+
+.titre_partenaires {
+    display: flex;
+    font-size: 23px;
+    justify-content: flex-start;
+    margin-top: 60px;
+    margin-left: 350px;
+    height: 140px;
+}
+.partenaires {
+    padding: 0px 450px 0px 350px;
+}
+
+.ligne1_partenaires {
+    display: flex;
+    zoom:75%;
+    justify-content: space-around;
+   margin-bottom:  50px;
+}
+
+.ligne2_partenaires {
+    display: flex;
+    zoom:90%;
+    justify-content: space-around;
+    margin-bottom:50px;
+}
+
+.ligne3_partenaires {
+    display: flex;
+    zoom:80%;
+    justify-content: space-between;
+    margin-bottom:90px;
+}
+
+.Nos_certifications {
+    display: flex;
+    color: grey;
+    background-color: #f6f6f6;
+    padding: 20px 190px 0px 190px;
+    line-height: 25px;
+
+}
+
+
+
+
+.Nos_certifications ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-right: 90px;
+
+
+}
+
+.images_certif {
+    zoom: 50%;
+    margin-right: 70px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-evenly  ;
+}
+
+.back_images {
+    background-color: #f6f6f6;
+
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+
+.text_copyright {
+    display:flex;
+    color:white;
+}
